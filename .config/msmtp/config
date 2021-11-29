@@ -1,0 +1,16 @@
+defaults
+tls on
+auth on
+auto_from on
+logfile ~/.msmtp.log
+tls_trust_file /etc/ssl/certs/ca-certificates.crt
+
+account school-gmail
+host smtp.gmail.com
+tls on
+from dmccullough@imsa.edu
+user dmccullough@imsa.edu
+passwordeval gpg2 -q --for-your-eyes-only --no-tty -d ~/.config/mu4e/mbsyncpass-school-email.gpg
+port 587
+
+account default : school-gmail
