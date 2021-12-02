@@ -1,0 +1,56 @@
+> Executing 'doom doctor' with Emacs 27.2 at 2021-12-01 23:00:22
+  The doctor will see you now...
+  
+  > Checking your Emacs version...
+  > Checking for Doom's prerequisites...
+  > Checking for Emacs config conflicts...
+  > Checking for great Emacs features...
+  > Checking for private config conflicts...
+  > Checking for stale elc files...
+  > Checking for problematic git global settings...
+  > Checking Doom Emacs...
+      Loading /home/shark/.emacs.d/.local/cache/emms...
+      Loading /home/shark/.emacs.d/.local/cache/emms...
+    [32m✓ Initialized Doom Emacs 21.12.0-alpha[0m
+    [32m✓ Detected 64 modules[0m
+    [32m✓ Detected 245 packages[0m
+    > Checking Doom core for irregularities...
+      [32mFound font material-design-icons.ttf[0m
+      [32mFound font weathericons.ttf[0m
+      [32mFound font octicons.ttf[0m
+      [32mFound font fontawesome.ttf[0m
+      [32mFound font file-icons.ttf[0m
+      [32mFound font all-the-icons.ttf[0m
+    > Checking for stale elc files in your DOOMDIR...
+    > Checking your enabled modules...
+      > [1m:tools editorconfig[0m
+          [33m! Couldn't find the editorconfig binary. Using native elisp version (slower)[0m
+      > [1m:lang java[0m
+          [33m! Couldn't find clang-format. Code formatting will not work.[0m
+      > [1m:lang julia[0m
+          [33m! Couldn't find LanguageServer.jl and/or SymbolServer.jl[0m
+      > [1m:lang ledger[0m
+          [33m! ledger isn't installed[0m
+      > [1m:lang markdown[0m
+          [33m! Couldn't find a markdown compiler, `markdown-preview' won't work[0m
+      > [1m:lang org[0m
+          [33m! Couldn't find gnuplot. org-plot/gnuplot will not work[0m
+      > [1m:lang python[0m
+          [33m! Couldn't find black. Code formatting will not work.[0m
+          [33m! Couldn't find pyflakes. Import management will not work.[0m
+          [33m! Couldn't find isort. Import sorting will not work.[0m
+          [33m! Couldn't find pipenv. pipenv support will not work.[0m
+          [33m! Couldn't find nosetests. Running tests through nose will not work.[0m
+          [33m! Couldn't find pytest. Running tests through pytest will not work.[0m
+          [33m! Couldn't find conda in your PATH[0m
+      > [1m:lang sh[0m
+          [33m! Couldn't find shellcheck. Shell script linting will not work[0m
+      > [1m:lang web[0m
+          [33m! Couldn't find tidy. Code formatting in HTML modes will not work.[0m
+          [33m! Couldn't find stylelint. Linting for CSS modes will not work.[0m
+          [33m! Couldn't find js-beautify. Code formatting in JS/CSS/HTML modes will not work.[0m
+      > [1m:email mu4e[0m
+          [33m! Couldn't find mbsync or offlineimap command. You may not have a way of fetching mail.[0m
+          [33m! Couldn't find mu command. Mu4e requires this to work.[0m
+  [33mThere are 19 warnings![0m
+  [32m✓ Finished in 9.5518s[0m
