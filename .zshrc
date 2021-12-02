@@ -40,3 +40,7 @@ fi
 export LEDGER_FILE="$HOME/finance/2021.journal"
 
 [ $TERM = "st-256color" ] && set -o vi
+
+(cat ~/.cache/wal/sequences &)
+
+source ~/.cache/wal/colors-tty.sh
