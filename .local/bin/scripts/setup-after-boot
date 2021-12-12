@@ -11,5 +11,7 @@ xlayoutdisplay &
 dunst &
 wal -R &
 udiskie &
-picom &
+picom --experimental-backend -b &
+sxhkd -c ~/.config/qtile/sxhkd/sxhkdrc & 
 emacs --daemon &
+

@@ -1,0 +1,19 @@
+#!/bin/sh
+
+###############################################################################
+#                               move-to-ventoy                                #
+###############################################################################
+# Script to move a bootable image to the my ventoy flash drive.
+#
+# Dependencies:
+# - rsync
+#
+# usage: move-to-ventoy <bootable-image>
+
+[ -z "$1" ] && echo "usage: move-to-ventoy <bootable-image>" && exit 1
+
+VENTOY_DIR="/run/media/$USER/Ventoy/"
+
+rsync -tvzP "$1" "$VENTOY_DIR"
+# the below doesn't work on ext4 filesystems
+# rsync --preallocate -tvzP "$1" "$VENTOY_DIR"
