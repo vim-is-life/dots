@@ -37,10 +37,12 @@ else
     eval "$(dircolors ~/.dircolors)"
 fi
 
-export LEDGER_FILE="$HOME/finance/2021.journal"
+export LEDGER_FILE="$HOME/finance/$(date '+%Y').journal.gpg"
 
-[ $TERM = "st-256color" ] && set -o vi
+# [ $TERM = "st-256color" ] && set -o vi
 
 (cat ~/.cache/wal/sequences &)
 
 source ~/.cache/wal/colors-tty.sh
+
+. /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
