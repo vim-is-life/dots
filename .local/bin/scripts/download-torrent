@@ -1,8 +1,0 @@
-#!/bin/sh
-
-###############################################################################
-#                               download-torrent                              #
-###############################################################################
-# This script will download a torrent at the magnet link given to it using aria2c.
-
-aria2c --disable-ipv6 --async-dns=false --seed-time=10 -c "$1"

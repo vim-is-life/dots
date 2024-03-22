@@ -1,1 +1,0 @@
-This repo is for my neovim config so I can take it and put it on multiple devices.

@@ -1,6 +1,0 @@
-[submodule "org-mode-literate-configs"]
-	path = .config/org-mode-literate-configs
-	url = https://github.com/vim-is-life/org-mode-literate-configs
-[submodule ".config/doom"]
-	path = .config/doom
-	url = https://github.com/vim-is-life/doom
